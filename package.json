@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Esto es el proyecto de back end",
+  "main": "app.js",
+  "scripts": {
+    "start": "set DEBUG=app:* & node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Flores Pacheco",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
+    "debug": "^4.1.1"
+  }
+}
